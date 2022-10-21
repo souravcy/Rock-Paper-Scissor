@@ -1,0 +1,42 @@
+*{
+    font-family: sans-serif;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    width: 99vw;
+    height: 97vh;
+    gap: 3em;
+}
+.score{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    font-size: 60px;
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15em;
+}
+.player,.computer{
+    display: flex;
+    font-size: xx-large;
+}
+.buttons{
+    display: flex;
+    gap: 50px;
+}
+.btn{
+    font-size: x-large;
+    padding: 10px 25px;
+}
+.winner{
+    font-size: 40px;
+}
