@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-</head>
-<body>
-    
-</body>
+    <script
+      src="https://kit.fontawesome.com/7015ad0c1e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">Rock Paper Scissor</div>
+    <div class="scoreboard">
+      <div class="player box">
+        Your Score :
+        <div class="playerscore">0</div>
+      </div>
+      <div class="playerchoice box">
+        <div class="choice">You Choose:</div>
+        <img class="choiceimage" id="playerimage" />
+      </div>
+      <div class="sign">=</div>
+      <div class="computerchoice box">
+        <div class="choice">Computer Choose:</div>
+        <img class="choiceimage computer" id="computerimage" />
+      </div>
+      <div class="computer box">
+        Computer Score:
+        <div class="computerscore">0</div>
+      </div>
+    </div>
+    <div class="select">Select from below:</div>
+    <div class="buttons">
+      <img class="choiceimage rock" src="images/rock.svg" />
+      <img class="choiceimage paper" src="images/paper.svg" />
+      <img class="choiceimage scissor" src="images/scissor.svg" />
+    </div>
+    <div class="footer">
+      <div class="name">Copyright © souravcy</div>
+      <div class="git">
+      </div>
+    </div>
+  </body>
 </html>
